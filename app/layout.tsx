@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Pixelify_Sans, Inter } from "next/font/google";
+import { Geist, Geist_Mono, Jersey_10, Inter } from "next/font/google";
 import "./globals.css";
+import Provider from "./provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -12,9 +13,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const gameFont = Pixelify_Sans({
-  variable: "--font-pixelify-sans",
+const gameFont = Jersey_10({
+  variable: "--font-jersey-10",
   subsets: ["latin"],
+  weight: ["400"],
 });
 
 const interFont = Inter({
@@ -33,12 +35,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning className="dark">
       <body
         className={`${geistSans.variable} ${geistMono.variable}
         ${gameFont.variable} ${interFont.variable}
         antialiased`}
       >
+        <Provider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+          >
+
+          </Provider>
         {children}
       </body>
     </html>
