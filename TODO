@@ -9,11 +9,18 @@ Todo:
 
 2. CHAPTER 2
 Todo:
-  ☐ Create Github repo
-  ☐ Maintain and Push all code chapter by chapter
-  ☐ Review code and fix all bugs using AI -> CodeRabbit.ai
+  ✔ Create Github repo @done(25-11-27 08:08)
+  ✔ Maintain and Push all code chapter by chapter @done(25-11-27 08:08)
+  ✔ Review code and fix all bugs using AI -> CodeRabbit.ai @done(25-11-27 08:08)
 
 3. CHAPTER 3
 Todo:
-  ☐ Setup dark theme for NextJs App as default theme
-  ☐
+  ✔ Setup dark theme for NextJs App as default theme @done(25-11-27 08:08)
+
+4. CHAPTER 4
+Todo:
+  ✔ Landing Screen @done(25-11-28 03:53)
+  ✔ Navigation Bar @done(25-11-28 03:53)
+  ✔ Hero Section @done(25-11-28 03:53)
+  ☐ Push code to Github & Create Pull Request
+  ☐ Review code with CodeRabbit.ai
