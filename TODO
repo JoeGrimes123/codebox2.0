@@ -22,5 +22,14 @@ Todo:
   ✔ Landing Screen @done(25-11-28 03:53)
   ✔ Navigation Bar @done(25-11-28 03:53)
   ✔ Hero Section @done(25-11-28 03:53)
-  ☐ Push code to Github & Create Pull Request
-  ☐ Review code with CodeRabbit.ai
+  ✔ Push Code to Github & Create Pull Request @done(25-11-28 03:56)
+  ✔ Review Code with CodeRabbit.ai @done(25-11-28 03:56)
+
+5. CHAPTER 5
+Todo:
+  ☐ Authentication
+  ☐ Email & Password
+  ☐ Gmail
+  ☐ Clerk Auth Setup
+  ☐ Push Code to Github & Create Pull Request
+  ☐ Review Code with CodeRabbit.ai
